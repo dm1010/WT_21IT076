@@ -1,0 +1,122 @@
+<!-- file name : registration.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Regestration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        fieldset {
+            height: fit-content;
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+<body bgcolor="#DEF5E5">
+    <h2 style="color:#4B56D2" align="center">
+        Charotar University of Science and Technology <br>
+        (CHARUSAT)
+    </h2><hr>
+    <center>
+        <form>
+            <fieldset>
+                <legend> <strong>SPOURAL Registration Form</strong></legend>
+                <table cellspacing="10px">
+                    <tr>
+                        <td> Firstname : </td>
+                        <td><input type="text" name="firstname" placeholder="Enter First Name" required><br></td>
+                    </tr>
+                    <tr>
+                        <td> Lastname : </td>
+                        <td><input type="text" name="lastname" placeholder="Enter Last Name" required><br></td>
+                    </tr>
+                    <tr>
+                        <td> College ID : </td>
+                        <td><input type="text" name="collegeid" placeholder="Enter College ID" required><br></td>
+                    </tr>
+                    <tr>
+                        <td> Gender : </td>
+                        <td><input type="radio" name="gender" required />
+                            Male
+                            <input type="radio" name="gender" required />
+                            Female <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Branch : </td>
+                        <td><select name="branch" required>
+
+                                <option value="it">IT</option>
+                                <option value="ce">CE</option>
+                                <option value="cse">CSE</option>
+                                <option value="ec">EC</option>
+                                <option value="mec">Mechanical</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td> Semester : </td>
+                        <td><select name="semester" required>
+
+                                <option value="1st">1st Semester</option>
+                                <option value="4th">4th Semester</option>
+                                <option value="6th">6th Semester</option>
+                                <option value="8th">8th Semester</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td> Email ID : </td>
+                        <td><input type="email" name="email" placeholder="Enter Email" required /><br></td>
+                    </tr>
+                    <tr>
+                        <td> Phone No : </td>
+                        <td><input type="number" name="phone" size="10" placeholder="Enter Phone no." required /><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Interested Sports : </td>
+                        <td>
+                            <input type="checkbox" name="cricket">Cricket
+                            <br>
+                            <input type="checkbox" name="vollyball">Vollyball
+                            <br>
+                            <input type="checkbox" name="basketball">Basketball
+                            <br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="football">Football
+                            <br>
+                            <input type="checkbox" name="tugofwar">Tug Of
+                            War <br>
+                            <input type="checkbox" name="tabletennis">Table
+                            Tennis <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Cultural Activities : </td>
+                        <td>
+                            <input type="checkbox" name="drama">Drama <br>
+                            <input type="checkbox" name="solo">Solo Dance
+                            <br>
+                            <input type="checkbox" name="group">Group Dance
+                            <br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="singing">Singing
+                            <br>
+                            <input type="checkbox" name="quiz">Quiz <br>
+                            <input type="checkbox" name="garba">Garba <br>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+                <center>
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </center>
+            </fieldset>
+        </form> <br>
+        <img src="Images/logo.png" alt="" height="100px" width="100px">
+    </center>
+</body>
+</html>
