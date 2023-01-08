@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator Using Inputbox</title>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend><h2>Basic Calculator Using Inputbox</h2></legend>
+            <table>
+                <tr>
+                    <td>Operator1:</td>
+                    <td><input type="text" id="a"></td>
+                </tr>
+                <tr>
+                    <td>Operator2:</td>
+                    <td><input type="text" id="b"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Add" id="add" onclick="add()">
+                        <input type="button" value="sub" id="sub" onclick="sub()">
+                    </td>
+                    <td>
+                        <input type="button" value="mul" id="mul" onclick="mul()">
+                        <input type="button" value="div" id="div" onclick="div()">
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>Result:</td>
+                    <td> <input type="text" id="res"></td>
+                </tr>
+            </table>
+            <script src="./demo.js"></script>
+            <br>
+        </fieldset>
+    </center>
+</body>
+</html>
