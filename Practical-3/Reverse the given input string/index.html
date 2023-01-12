@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Input</title>
+    <style>
+        fieldset {
+            height: fit-content;
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend><strong>Enter Sentence</strong></legend>
+            <input type="text" id="inputBox" placeholder="Enter String" oninput="reverseInput()" /><br><br>
+            <button onclick="reverseInput()">Reverse</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong><em>Reversed Of Input</em></strong></legend>
+            <p id="output"></p>
+        </fieldset>
+    </center>
+    <script src="./jscript.js"></script>
+</body>
+</html>

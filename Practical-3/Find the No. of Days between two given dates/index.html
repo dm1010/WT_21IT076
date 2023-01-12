@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the No. of Days between two given dates</title>
+    <style>
+        fieldset {
+           height: fit-content;
+           width: fit-content;
+           margin: auto;
+        }
+     </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Calculate Days </legend>
+        <table>
+            <tr>
+                <td><label>Enter Start Date:</label></td>
+                <td><input type="date" id="startDate"/><br></td>
+            </tr>
+            <tr>
+                <td><label>Enter End Date:</label></td>
+                <td><input type="date" id="endDate"/></td>
+            </tr>
+        </table>
+        <center>
+            <button onclick="calculateDays()">Calculate days</button>
+        </center>
+    </fieldset>
+    <center>
+        <p id="output"></p>
+    </center>
+
+
+
+<script src="./jscript.js"></script>
+</body>
+</html>
