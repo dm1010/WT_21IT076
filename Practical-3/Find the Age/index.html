@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +7,17 @@
     <title>Age Calculator</title>
     <style>
         fieldset {
-           height: fit-content;
-           width: fit-content;
-           margin: auto;
+            height: fit-content;
+            width: fit-content;
+            margin: auto;
         }
-     </style>
+    </style>
 </head>
-
 <body>
     <fieldset>
         <legend><strong>Calculate Your Age</strong></legend>
         Enter Your Birthdate:
-        <input type="date" id="birthdate" placeholder="yyyy-mm-dd" oninput="calculateAge()"/>
+        <input type="date" id="birthdate" placeholder="yyyy-mm-dd" oninput="calculateAge()" />
         <button onclick="calculateAge()">Calculate age</button>
     </fieldset>
     <br>
@@ -27,7 +25,7 @@
         <legend><strong><em>Your Age Is : </em></strong></legend>
         <p id="output"></p>
     </fieldset>
-    
+
     <script src="./jscript.js"></script>
 </body>
 
