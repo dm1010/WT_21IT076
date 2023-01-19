@@ -1,6 +1,5 @@
 //console.log("Connected....")
 var div = document.getElementById("full");
-
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
@@ -9,9 +8,7 @@ function getRandomColor() {
     }
     return color;
 }
-
 function changeColor() {
     div.style.backgroundColor = getRandomColor();
 }
-
 setInterval(changeColor, 60000);
